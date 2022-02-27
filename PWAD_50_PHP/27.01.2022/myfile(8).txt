@@ -1,0 +1,16 @@
+Lorem ipsum 
+dolor sit amet consectetur 
+adipisicing elit. In nam blanditiis 
+magni incidunt repudiandae eligendi 
+deserunt veniam iste odio soluta quisquam 
+saepe, architecto aliquid rem.
+
+deserunt veniam iste odio soluta quisquam 
+saepe, architecto aliquid rem.
+
+
+
+AuthUserFile /path/to/.htpasswd
+AuthType Basic
+AuthName "My Files"
+Require valid-user

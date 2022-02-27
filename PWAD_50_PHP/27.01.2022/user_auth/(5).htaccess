@@ -1,0 +1,4 @@
+AuthUserFile G:\MdYearulIslam\XAMP\htdocs\pwad50\PWAD_50_PHP\27.01.2022\user_auth\inc/.htpasswd
+AuthType Basic
+AuthName "My Files"
+Require valid-user

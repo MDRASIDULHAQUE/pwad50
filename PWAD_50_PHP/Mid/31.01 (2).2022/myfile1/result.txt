@@ -1,0 +1,5 @@
+1, Rasid, 50
+2, Sojol, 45
+3, Abdur, 50
+4, Fehor, 50
+5, Alamin, 45

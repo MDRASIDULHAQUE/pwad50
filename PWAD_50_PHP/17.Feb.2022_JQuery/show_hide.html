@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.min.js"> </script>
+
+    <style>
+        #org{
+            background-color: darkgray;
+            padding: 20px;
+            text-align: center;
+            text-decoration: double;
+            text-justify: inter-word;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>This is heading</h1>
+    <p style="color: blueviolet;" id="org">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis impedit laboriosam fugit eius voluptas nobis
+     aperiam aspernatur assumenda illum provident, at, rerum velit quam? Nemo.</p>
+
+     <button id="btn1">Hide</button> <button id="btn2">Show</button>
+     <button id="btn3">Toggle Button</button>
+    <script>
+        $(document).ready(function(){
+            $('#btn1').click(function(){
+                $('p').hide();
+            });
+            $('#btn2').click(function(){
+                $('p').show();
+            });
+            $('#btn3').click(function(){
+                $('p').toggle();
+            })
+              
+        });
+
+        // jQuery(document).ready(function($){
+
+        // });
+
+        // $(function(){
+
+        // });
+    </script>
+
+
+
+
+
+</body>
+</html>
